@@ -31,5 +31,11 @@ namespace HelloWorldCC.Controllers
         {
             return View();
         }
+        public IActionResult Contact1()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
     }
 }
